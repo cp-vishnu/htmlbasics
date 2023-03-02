@@ -6,212 +6,165 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Portfolio</title>
-                  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-<nav>
-  <hr>
-  <a href="#About Me">About Me</a> |
-  <a href="#Skills">Skills</a> |
-  <a href="#projects">projects</a> |
-  <a href="#Education details">Education details</a>|
-  <a href="#Known Language">Known Language</a>|
-  <a href="#Registeration">Registeration form</a> |
-  
-  <hr>
+  <nav class="main-nav">
+    <h1 class="main-head">Portfol <span class="main-head-element">!</span>o</h1>
+    <ul class="nav-content">
+      <li>
+        <a href="#About Me">About Me</a>
+      </li>
+      <li>
+        <a href="#Skills">Skills</a>
+      </li>
+      <li>
+        <a href="#projects">projects</a>
+      </li>
+      <li>
+        <a href="#Education details">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="img-section">
+      <div class="Right-img-section">
+        <div class="main-content">
+          <img src="images/goodbye.png" alt="hand" class="img2">
+          <h1 class="heading">Hello !am </h1>
+          <h1 class="heading1">Vishnu_chengot!</h1>
+        </div>
+      </div>
+      <div class="left-img-section">
+        <img src="images\IMG_20210809_214245 (1).jpg" alt="" class="img1">
 
-</nav>
-<main>
-  <img src="images\IMG_20210809_214245 (1).jpg" alt="" style="height: 200px; width: 200px; border-radius: 200px;">
-  <h1> <mark>Vishnu cp</mark> </h1>  
-  <h3> <em>Developer</em></h3>
-  <h4>Email: <a href="#">vishnu.cp@codilar.com</a></h4>
-  <span>Git Hub: <a href="#">https://github.com/cp-vishnu/htmlbasics</a></span>
-  <span>Mob NO: <a href="">9072879546</a></span>
-  <hr>
-  <hr>
-  <article>
-  <h3 id="About Me">About Me:</h3>
-  <pre>
-    I am a Bsc Graduate with an honors degree from the University of calicut. I am currently looking to secure a Full stack developer position to utilize my coding skills
-    and developing knowledge. A designer knows he has achieved perfection not when there is nothing left to add but when there is nothing left to take away.Learning to 
-    write programs stretches the mind ,and helps to think better. I will put my all efforts in the work for the company's growth.
-  </pre>
-  </article>
-  <hr>
-  <hr>
-  <h3 id="Skills">Skills:</h3>
-  <ul>
-    <li>HTML 5</li>
-    <li>CSS 3</li>
-    <li>Bootstrap</li>
-    <li>Python Django</li>
-    <li>pSQL - mySQL</li>
-  </ul>
-  <hr>
-  <h3 id="projects">projects:</h3>
-  <h5>1.HR-Management system</h5>
-  <p>
-    This system will reduce the manual operation required to maintain all the records
-    of
-    Employee details , Attendance ,Work hour ,employee engagement ,leave ,asset , work from home management
-    The objective of this project is to develop a system that will automates the
-    processes and activities of HR related to an organisation.
-  </p>
-  <hr>
-  <h4 id="Education details">Education details</h4>
-  <details>
-    <summary>Graduation:</summary>
-    <p>Completed Bsc Electronics from CAS colleage of applied science.</p>
-  </details>
-  <details>
-    <summary>Plus Two:</summary>
-    <p>Completed  Biology Science from NNMHSS chelembra.</p>
-  </details>
-  <details>
-    <summary>SSLC:</summary>
-    <p>succesfully Completed from Nivedithya Vidya Peedom.</p>
-  </details>
-  <hr>
-  <h4 id="Known Language">Known Language:</h4>
-  <ol>
-    <li>Hindi</li>
-    <li>English</li>
-    <li>Malayalam</li>
-  </ol>
-  <hr>
-  <hr>
-  <table border="1" id="Registeration">
-    <form  method="post">
-    <tr>
-      <td colspan="2">
-        <h3>Join in our community</h3>
-      </td>
+      </div>
+    </div>
+    <div>
+      <h3 id="About Me" class="head">About Me</h3>
+      <p class="about-me"> I am a Bsc Graduate with an honors degree from the University of calicut. I am currently
+        looking to secure a Full stack developer position to utilize my coding skills
+        and developing knowledge. A designer knows he has achieved perfection not when there is nothing left to add but
+        when there is nothing left to take away.Learning to
+        write programs stretches the mind ,and helps to think better. I will put my all efforts in the work for the
+        company's growth.
+      </p>
+    </div>
+    <hr>
+    <h3 id="Skills" class="head">Skills</h3>
+    <div class="container">
 
-    </tr>
-    <tr>
-      <td>
-        <label for="">Name:</label>
-      </td>
-      <td>
-        <input type="text" placeholder="eg:vishnu">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">Email:</label>
-      </td>
-      <td>
-        <input type="email" placeholder="eg:vishnu.cp@codilar">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">Number:</label>
-      </td>
-      <td>
-        <input type="number" placeholder="eg:907287">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">DOB:</label>
-      </td>
-      <td>
-        <input type="date">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">Profile Pic:</label>
-      </td>
-      <td>
-        <input type="file">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">Gender:</label>
-      </td>
-      <td>
-        <label for="">Male:</label>
-        <input type="radio">
-        <label for="">Female:</label>
-        <input type="radio">
-      </td>
-
-    </tr>
-    <tr>
-      <td>
-        <label for="">password:</label>
-      </td>
-      <td>
-        <input type="password">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <label for="">select course</label>
-      </td>
-      <td>
-        <select>
-          <option value="">python</option>
-          <option value="">php</option>
-          <option value="">java</option>
-        </select>
-      </td>
-
-    </tr>
-    <tr>
-      <td colspan="2">
-        <input type="submit">
-      </td>
-    </tr>
-</form>
-  </table>
-
-  <h4>my demo portfolio</h4>
-  <video width="320" height="240" controls>
-    <source src="/video.mp4">
-    
-    
-    
-  </video>
-  
-    <figure>
-      <img src="images\food1.jpg" alt="dosa and idili" style="width:300px; height: 300px;">
-      <figcaption>Fig.1 -favorate food.</figcaption>
-    </figure>
-
-
-
-
-
-
-</main>
-
+      <div class="item">
+        <img src="images/html-5.png" alt="" class="img3">
+      </div>
+      <div class="item">
+        <img src="images/css-3.png" alt="" class="img3">
+      </div>
+      <div class="item">
+        <img src="images/bootstrap.png" alt="" class="img3">
+      </div>
+      <div class="item">
+        <img src="images/mysql.png" alt="" class="img3">
+      </div>
+      <div class="item">
+        <img src="images/php.png" alt="" class="img3">
+      </div>
+      <div class="item">
+        <img src="images/python.png" alt="" class="img3">
+      </div>
+    </div>
+    <hr>
+    <div class="projects">
+      <h3 id="projects">projects</h3>
+      <h5>1.HR-Management system</h5>
+      <p>
+        This system will reduce the manual operation required to maintain all the records
+        of
+        Employee details , Attendance ,Work hour ,employee engagement ,leave ,asset , work from home management
+        The objective of this project is to develop a system that will automates the
+        processes and activities of HR related to an organisation.
+      </p>
+    </div>
+    <hr>
+    <h4 id="Education details">Education details</h4>
+    <details>
+      <summary>Graduation:</summary>
+      <p>Completed Bsc Electronics from CAS colleage of applied science.</p>
+    </details>
+    <details>
+      <summary>Plus Two:</summary>
+      <p>Completed Biology Science from NNMHSS chelembra.</p>
+    </details>
+    <details>
+      <summary>SSLC:</summary>
+      <p>succesfully Completed from Nivedithya Vidya Peedom.</p>
+    </details>
+    <hr>
+    <h4 id="Known Language">Known Language:</h4>
+    <ol>
+      <li>Hindi</li>
+      <li>English</li>
+      <li>Malayalam</li>
+    </ol>
+    <hr>
+    <div class="Feedback">
+      <h3 id="feadback" class="head">Feedback</h3>
+      <div>
+        <form method="post">
+          <input type="text" placeholder="Name:" class="input">
+          <br>
+          <input type="email" placeholder="Email:" class="input">
+          <br>
+          <input type="number" placeholder="Number:" class="input">
+          <br>
+          <textarea cols="30" rows="5" class="input1" placeholder="Message:"></textarea>
+          <br>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <h3 id="feadback" class="head">Hobbies</h3>
+    <div class="container2">
+      <div class="item2">
+        <figure>
+          <img src="images\food1.jpg" alt="dosa and idili" class="img5">
+          <figcaption>Fig.1-Eating.</figcaption>
+        </figure>
+      </div>
+      <div class="item2">
+        <figure>
+          <img src="images\splashy-painted-music-wallpaper.jpg" alt="dosa and idili" class="img5">
+          <figcaption>Fig.2-Music.</figcaption>
+        </figure>
+      </div>
+      <div class="item2">
+        <figure>
+          <img src="images\photo-1589998059171-988d887df646.jpg" alt="dosa and idili" class="img5">
+          <figcaption>Fig.3-Reading.</figcaption>
+        </figure>
+      </div>
+      <div class="item2">
+        <figure>
+          <img src="images\anup-kumar-tries-to-raid-the-gujarat-fortunegiant-s-defence-1503919604.jpg"
+            alt="dosa and idili" class="img5">
+          <figcaption>Fig.4-Playing.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
 </body>
-
 <footer>
-
-  
-<a href="mailto:hege@example.com">Email Id</a>
-<a href="mailto:hege@example.com"><i class="fa-brands fa-git"></i>Git Hub</a>
-<a href="mailto:hege@example.com"><i class='fa fa-linkedin blue-color'></i>
-Linkdin</a>
-    
-      
-
-  
-  
-
+  <a href="#"><i class="fa-solid fa-envelope"></i>Email Id</a>
+  <a href="#"><i class="fa-brands fa-github"></i>Git Hub</a>
+  <a href="#"><i class="fa-brands fa-linkedin"></i>Linkdin</a>
 </footer>
 
 </html>
